@@ -1,0 +1,164 @@
+/*Main flex layouts*/
+.main-container{
+    width: 100%;
+    /*width: 1920px;*/
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.side-menu{
+    width: 462px;
+    height: 100Vh;
+    background-color: #393D42;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    transition: all ease-in-out 400ms;
+}
+.master-container{
+    width: 100%;
+    padding: 20px;
+    /*background-color: black;*/
+}
+.main-nav{
+    width: 100%;
+    height: 176px;
+    background-color: red;
+}
+/*Shadow*/
+.side-header-shadow{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+/*Side Menu*/
+.side-header{
+    display: flex;
+    height: 80px;
+    /*width: 462px;*/
+    background-color: #F8F9FA;
+    margin-left: 0px;
+    margin-bottom: 48px;
+}
+.side-fonts{
+    font-size: 29px;
+    font-family: Arial;
+}
+.reminder-word{
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-right: 0px;
+    color: #6E747C;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mouse-pointer{
+    cursor: pointer;
+}
+.side-selector-colour{
+    background-color: #457AFB;
+    height: 80px;
+    align-items: center;
+}
+.side-list-words{
+    color: #F8F9FA;
+    margin-bottom: 48px;
+    margin-left: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+}
+li{
+    list-style: none;
+}
+
+/*Icons*/
+.header-icon1{
+    background-image: url("Logo.png");
+    background-size: cover;
+    width: 42px;
+    height: 36.28px;
+    margin-left: 24px;
+    margin-top: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-icon{
+    background-image: url("Mask Group 1.png");
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+.header-icon2{
+    background-image: url("Mask Group 1.png");
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    margin-right: 24pxpx;
+    margin-top: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all ease-in-out 400ms;
+}
+.side-list-icons{
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    /*margin-left: 24px;*/
+    left: 0;
+    margin-bottom: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+}
+.prayer-icon{
+    background-image: url("Mask Group 5.png");
+}
+.dashboard-icon{
+    background-image: url("Mask Group 2.png");
+}
+.tasks-icon{
+    background-image: url("Mask Group 7.png");
+}
+.reminders-icon{
+    background-image: url("Mask Group 4.png");
+}
+.my-pocket-icon{
+    background-image: url("Mask Group 6.png");
+}
+.categories-icon{
+    background-image: url("Mask Group 9.png");
+}
+.archive-icon{
+    background-image: url("Mask Group 8.png");
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Tasks page*/
+.tasks-header{
+    margin-left: 24px;
+    width: 1434px;
+    height: 80px;
+    background-color: rgba(57, 61, 66, 5%);
+}
+.tasks-header-img{
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    margin: 24px 24px 24px 48px;
+}
+.tasks-header-word{
+    font-size: 29px;
+    color: #393D42;
+    margin: 0px;
+}
+.tasks-input{
+    margin-left: 186px;
+    margin-top: 48px;
+    width: 1110px;
+    height: 120px;
+    border: 2px solid #6E747C;
+}
+
